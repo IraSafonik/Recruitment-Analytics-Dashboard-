@@ -24,6 +24,8 @@ I developed a comprehensive recruitment analytics dashboard to transform raw hir
 - **SQL**: Data querying and manipulation
 
 ## 🗂️ Data Sources
+- **Dataset**: [Recruiting Key Performance Indicators](https://www.kaggle.com/datasets/aidakooh/recruiting-key-performance-indicators/code)
+
 The project analyzed recruitment data including:
 - 1,000+ candidate applications
 - 4 recruiters' performance metrics
@@ -33,30 +35,47 @@ The project analyzed recruitment data including:
 
 ## 💻 Process and Steps
 
-### 1️⃣ Step 1: Data Collection and Preparation
-- Gathered recruitment data from multiple sources
+### 1️⃣ Step 1: Data Collection and Understanding
+- Downloaded dataset from Kaggle
+- Analyzed data structure and available metrics
+- Identified key performance indicators
+
+### 2️⃣ Step 2: Data Preparation
 - Cleaned and standardized data formats
-- Created calculated fields for key metrics
+- Created calculated fields for analysis
+- Prepared data for Tableau visualization
 
-### 2️⃣ Step 2: Dashboard Design
-- Designed main KPI cards for key metrics
-- Created interactive filters for data exploration
-- Implemented dynamic visualizations
+### 3️⃣ Step 3: Dashboard Design
+- Created main KPI cards showing:
+  - Total Candidates
+  - Total Recruiters
+  - Accepted/Rejected Offers
+  - Avg Time to Hire
+  - Avg Hire Cost
+- Implemented interactive filters for:
+  - Recruiter
+  - Position
+  - Source
+  - Status
+  - Application Date
 
-### 3️⃣ Step 3: Metrics Development
-- Built conversion funnel visualization
-- Developed time-to-hire tracking
-- Created cost analysis metrics
+### 4️⃣ Step 4: Visualization Development
+- Built Candidate Conversion funnel
+- Created Time to Hire analysis by position
+- Developed Total Offers vs Rejected Offers trends
+- Implemented Source & Count of Candidates overview
+- Created Total Hire Cost by Source analysis
+- Developed Recruiters Statistics table
 
-### 4️⃣ Step 4: Performance Analysis
-- Implemented recruiter performance tracking
-- Created source effectiveness analysis
-- Built offer acceptance rate monitoring
+### 5️⃣ Step 5: Dashboard Publishing and Documentation
+- Published dashboard to Tableau Public
+- Created documentation for metrics calculation
+- Prepared project description and README
 
-### 5️⃣ Step 5: Testing and Optimization
-- Tested dashboard functionality
-- Optimized visualizations
-- Added interactive features
+## 🔗 Links
+- **Tableau Public**: [Recruiting KPIs Dashboard](https://public.tableau.com/views/RecruitingKPIs/RecruitingKPIs?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<img width="940" alt="Знімок екрана 2024-11-19 о 00 21 07" src="https://github.com/user-attachments/assets/e812809b-77ef-4f48-88a4-4bb2f0f66aa1">
+
 
 ## 🌿 Results and Conclusion
 Successfully delivered a comprehensive recruitment analytics dashboard that provides:
@@ -67,4 +86,4 @@ Successfully delivered a comprehensive recruitment analytics dashboard that prov
 - Source effectiveness analysis
 - Offer acceptance tracking (84 accepted vs 60 rejected offers)
 
-The dashboard enables data-driven decision making in the recruitment process and provides valuable insights for optimization of hiring strategies.
+The dashboard enables data-driven decision-making in the recruitment process and provides valuable insights for optimization of hiring strategies.
