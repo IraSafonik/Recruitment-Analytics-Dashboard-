@@ -21,7 +21,6 @@ I developed a comprehensive recruitment analytics dashboard to transform raw hir
 ## 🛠️ Tools and Technologies
 - **Tableau**: Primary tool for dashboard creation and data visualization
 - **Excel**: Data preparation and initial analysis
-- **SQL**: Data querying and manipulation
 
 ## 🗂️ Data Sources
 - **Dataset**: [Recruiting Key Performance Indicators](https://www.kaggle.com/datasets/aidakooh/recruiting-key-performance-indicators/code)
